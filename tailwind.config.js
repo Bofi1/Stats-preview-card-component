@@ -3,6 +3,9 @@ module.exports = {
   content: ["index.html"],
   theme: {
     extend: {
+      screens: {
+        desktop: "1440px",
+      },
       fontFamily: {
         Inter: ["'Inter'", "sans-serif"],
         LexendDeca: ["'LexendDeca'", "sans-serif"],
